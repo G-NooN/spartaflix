@@ -13,4 +13,4 @@
    - getDocs
      > Deleted Firestore Configuration for preventing Information
 5. Fetch
-   - Current Weather in Seoul ([link](http://spartacodingclub.shop/sparta_api/weather/seoul))
+   - Current Weather in Seoul API ([link](http://spartacodingclub.shop/sparta_api/weather/seoul))
