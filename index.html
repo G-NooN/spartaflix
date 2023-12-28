@@ -150,6 +150,7 @@
     </script>
   </head>
   <body>
+    <!-- BootStrap을 사용하여 Header 양식 적용 -->
     <header class="p-3 text-bg-dark">
       <div class="container">
         <div
@@ -164,6 +165,7 @@
             </svg>
           </a>
 
+          <!-- 상단 메뉴 -->
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li><a href="#" class="nav-link px-2 text-danger">spartaflix</a></li>
             <li><a href="#" class="nav-link px-2 text-white">홈</a></li>
@@ -171,12 +173,14 @@
             <li><a href="#" class="nav-link px-2 text-white">영화</a></li>
             <li><a href="#" class="nav-link px-2 text-white">내가 찜한 콘텐츠</a></li>
             <li>
+              <!-- 서울의 현재 기온을 출력하는 요소 -->
               <a href="#" class="nav-link px-2 text-white"
                 >현재기온: <span id="temperature"></span
               ></a>
             </li>
           </ul>
 
+          <!-- 검색창 -->
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
             <input
               type="search"
@@ -186,6 +190,7 @@
             />
           </form>
 
+          <!-- 로그인(Login) & 회원가입(Sign-up) 버튼 -->
           <div class="text-end">
             <button type="button" class="btn btn-outline-light me-2">Login</button>
             <button type="button" class="btn btn-danger">Sign-up</button>
@@ -193,7 +198,9 @@
         </div>
       </div>
     </header>
-    <div class="main">
+
+    <!-- 영화를 홍보하는 구역 -->
+    <div class="header">
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">킹덤</h1>
@@ -201,11 +208,14 @@
             병든 왕을 둘러싸고 흉흉한 소문이 떠돈다. 어둠에 뒤덮인 조선, 기이한 역병에 신음하는
             산하. 정체 모를 악에 맞서 백성을 구원할 희망은 오직 세자뿐이다.
           </p>
+          <!-- 영화 후기를 기록하는 구역을 On/Off하는 버튼 -->
           <button id="savebtn" type="button" class="btn btn-outline-light">영화 기록하기</button>
           <button type="button" class="btn btn-outline-light">상세정보</button>
         </div>
       </div>
     </div>
+
+    <!-- 영화 후기를 기록하는 구역 -->
     <div class="mypostingbox" id="postingbox">
       <div class="form-floating mb-3">
         <input type="email" class="form-control" id="image" placeholder="영화 이미지 주소" />
@@ -217,6 +227,7 @@
       </div>
       <div class="input-group mb-3">
         <label class="input-group-text" for="inputGroupSelect01">별점</label>
+        <!-- 영화의 별점을 선택하는 옵션 -->
         <select class="form-select" id="star">
           <option selected>별점선택</option>
           <option value="⭐">⭐</option>
@@ -230,8 +241,11 @@
         <input type="email" class="form-control" id="comment" placeholder="추천 이유" />
         <label for="floatingInput">추천 이유</label>
       </div>
+      <!-- 작성한 영화 후기를 저장하는 버튼 -->
       <button id="postingbtn" type="button" class="btn btn-danger">기록하기</button>
     </div>
+
+    <!-- 저장된 영화 후기가 출력되는 구역 -->
     <div class="mycards">
       <div id="card" class="row row-cols-1 row-cols-md-4 g-4"></div>
     </div>
