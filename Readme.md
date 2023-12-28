@@ -9,8 +9,8 @@
    - Font-family: Gowun Dodum
 3. jQuery(v.3.4.1)
 4. Firestore (from Firebase)
+   > Deleted Firestore Configuration for preventing Information
    - addDoc
    - getDocs
-     > Deleted Firestore Configuration for preventing Information
 5. Fetch
    - Current Weather in Seoul API ([link](http://spartacodingclub.shop/sparta_api/weather/seoul))
