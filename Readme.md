@@ -7,7 +7,7 @@
    - Buttons
 2. Google Font
    - Font-family: Gowun Dodum
-3. jQuery(v.3.4.1)
+3. jQuery(v3.4.1)
 4. Firestore (from Firebase)
    > Deleted Firestore Configuration for preventing Information
    - addDoc
